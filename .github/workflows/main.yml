@@ -1,4 +1,4 @@
-            - name: Deploy to Cloudflare Workers with Wrangler
+ - name: Deploy to Cloudflare Workers with Wrangler
   # You may pin to the exact commit or the version.
   # uses: cloudflare/wrangler-action@c25aadc9657b0cdc4786c04e59a6fe92765a783b
   uses: cloudflare/wrangler-action@v3.1.0
@@ -25,4 +25,3 @@
     command: # optional
     # A string of environment variable names, separated by newlines. These will be bound to your Worker using the values of matching environment variables declared in `env` of this workflow.
     vars: # optional
-          
